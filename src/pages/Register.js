@@ -1,12 +1,17 @@
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import { register } from '../services/authService';
+
 
 function Register() {
   const [form, setForm] = useState({});
+  const navigate = useNavigate();
+
 
   const submit = async () => {
     await register(form);
     alert("Registered Successfully");
+    navigate("/login");
   };
 
   return (
