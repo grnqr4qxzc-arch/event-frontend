@@ -7,6 +7,7 @@ import BookEvent from "./pages/BookEvent";
 import MyTickets from "./pages/MyTickets";
 import PaymentSuccess from "./pages/PaymentSuccess";
 import PaymentFailed from "./pages/PaymentFailed";
+import EventDetails from "./pages/EventDetails";
 
 import ProtectedRoute from "./components/ProtectedRoute";
 import Navbar from "./components/Navbar";
@@ -22,6 +23,8 @@ function App() {
         <Route path="/events" element={<EventList />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/events/:id" element={<EventDetails />} />
+
 
         {/* Protected routes */}
         <Route
