@@ -3,7 +3,7 @@
 Frontend application for a movie and event booking platform built using React.
 
 ## 🔗 Related Repository
-Backend API: https://github.com/grnqr4qxzc-arch/event-frontend
+Backend API: https://github.com/grnqr4qxzc-arch/Event-manager
 
 ---
 
