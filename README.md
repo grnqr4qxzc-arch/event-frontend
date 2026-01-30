@@ -34,7 +34,7 @@ Backend API: https://github.com/grnqr4qxzc-arch/Event-manager
 
 ### Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<frontend-repo-name>
+git clone https://github.com/grnqr4qxzc-arch/event-frontend
 cd frontend
 Install dependencies
 npm install
